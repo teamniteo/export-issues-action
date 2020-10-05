@@ -1,0 +1,15 @@
+name: 'Export Issues'
+description: 'Exports issues as markdown document'
+inputs:
+  repo:
+    description: 'Repository to export'
+    required: true
+  org:
+    description: 'Org that repository belongs to'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  color: 'purple'
+  icon: 'upload-cloud'
