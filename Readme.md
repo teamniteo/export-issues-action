@@ -45,3 +45,11 @@ jobs:
         path: "issues/*.md"
 ```
 
+# Extra
+
+We also include script that is able to convert BackHub backed issues to Markdown documents.
+
+To run:
+```shell
+bash convert-backup.sh issues-backuply issues-md
+```
